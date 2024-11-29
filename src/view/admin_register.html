@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>管理员注册页面</title>
+
+    <link rel="stylesheet" href="../static/css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/login_or_register.css">
+
+</head>
+<body>
+
+<div class="materialContainer">
+    <div class="box">
+        <div class="title">登录</div>
+        <div class="input">
+            <label for="name">用户名</label>
+            <input type="text" name="name" id="name">
+            <span class="spin"></span>
+        </div>
+        <div class="input">
+            <label for="pass">密码</label>
+            <input type="password" name="pass" id="pass">
+            <span class="spin"></span>
+        </div>
+
+        <div class="button login">
+            <button>
+                <span>登录</span>
+            </button>
+        </div>
+        <a href="javascript:" class="pass-forgot">忘记密码？</a>
+    </div>
+    <div id="popbox"></div>
+    <div class="popup" id="popup">成功</div>
+    <form class="overbox" action="../admin/register.php" method="post" id="adminRegister">
+        <div class="material-button alt-2">
+            <span class="shape"></span>
+        </div>
+        <div class="title">注册</div>
+        <div class="input">
+            <label for="regname">用户名</label>
+            <input type="text" name="username" id="regname">
+            <span class="spin"></span>
+        </div>
+        <div class="input">
+            <label for="regpass"></label>
+            <input type="text" name="password" value="默认密码请联系管理员" disabled="disabled" id="regpass">
+            <span class="spin"></span>
+        </div>
+        <div class="input">
+            <label for="invite_code">注册码</label>
+            <!--            🐖🚗🐎：114514-->
+            <input type="password" name="invite_code" id="invite_code">
+            <span class="spin"></span>
+        </div>
+        <div class="button" id="register_btn">
+            <button>
+                <span>注册</span>
+            </button>
+        </div>
+    </form>
+
+</div>
+
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/js/admin_register.js"></script>
+
+</body>
+</html>

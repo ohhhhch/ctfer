@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: #0099ff;
+}
+
+.main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.sidebar-item:hover {
+    color: #0099ff;
+}
+
+.sidebar-icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.content {
+    width: 80%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content-table th {
+    font-size: 16px;
+    font-weight: normal;
+    color: #333333;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.content-table td {
+    font-size: 14px;
+    color: #333333;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.content-table tr:hover {
+    background-color: #f0f0f0;
+}
+
+.content-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0099ff;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.content-button:hover {
+    background-color: #0066cc;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #333333;
+}
